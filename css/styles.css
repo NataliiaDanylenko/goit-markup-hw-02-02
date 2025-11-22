@@ -64,6 +64,8 @@ a {
     background-color: #2e2f42;;
 }
 
+/* Section 1 */
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -80,7 +82,7 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-decoration-color: #fff;
+    color: #fff;
 }
 
 .hero-button:hover {
@@ -91,6 +93,7 @@ a {
     background-color: #404BBF;
 }
 
+/* Section 2 */
 .advan-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -107,6 +110,11 @@ a {
     color: #434455;
 }
 
+/* Section 3 */
+
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
     font-weight: 700;
@@ -115,6 +123,11 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.team-list {
+    background-color: #FFFFFF;
 }
 
 .team-name {
