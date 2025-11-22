@@ -60,10 +60,14 @@ a {
     background-color: #2e2f42;
 }
 
+.hero {
+    background-color: #2e2f42;;
+}
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -73,6 +77,18 @@ a {
 .hero-button {
     background-color: #4d5ae5;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-decoration-color: #fff;
+}
+
+.hero-button:hover {
+    background-color: #404BBF;
+}
+    
+.hero-button:focus {
+    background-color: #404BBF;
 }
 
 .advan-subtitle {
@@ -119,6 +135,8 @@ a {
     color: #434455;
 }
 
+/* Section 4 */
+
 .portfolio {
     font-weight: 700;
     font-size: 36px;
@@ -126,6 +144,21 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.portfolio-list {
+    background-color: #FFFFFF;
 }
 
 .portfolio-name {
